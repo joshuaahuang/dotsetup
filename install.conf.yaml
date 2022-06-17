@@ -6,9 +6,7 @@
 
 - link:
     ~/.tmux.conf: etc/tmux.conf
-
-- create:
-    - ~/temp-dir
+    ~/.vimrc: etc/vimrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
