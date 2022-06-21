@@ -7,7 +7,9 @@
 - link:
     ~/.tmux.conf: etc/tmux.conf
     ~/.vimrc: etc/vimrc
+    ~/.zshenv: etc/zshenv
     ~/.zshrc: etc/zshrc
+    ~/.config/nvim/init.vim: etc/init.vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
