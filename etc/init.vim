@@ -70,6 +70,7 @@ set hlsearch					    "Highlight search terms
 set incsearch					    "Highlight search terms as you type
 set nobackup			            "Do not create backup files
 set spell spelllang=en_us           "Spell check
+set clipboard+=unnamedplus
 " COLOR SCHEME
 if (has("termguicolors"))
      set termguicolors
@@ -88,6 +89,17 @@ nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
+" Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
+" Paste from clipboard
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
 "-----------------------------------------------------------------
 "---------------------------- Fuzzy -------------------------------
 " Search files with FZF
