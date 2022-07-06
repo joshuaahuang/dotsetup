@@ -48,6 +48,7 @@ Plug 'nvim-lua/lsp_extensions.nvim'
 "Autocompletion framwork for built-in LSP
 " Plug 'nvim-lua/completion-nvim'
 call plug#end()
+set nu rnu " set relative line numbers
 set nu " set line numbers
 set ru " set ruler at cursor pos
 syntax on
@@ -70,7 +71,6 @@ set hlsearch					    "Highlight search terms
 set incsearch					    "Highlight search terms as you type
 set nobackup			            "Do not create backup files
 set spell spelllang=en_us           "Spell check
-set clipboard+=unnamedplus
 " COLOR SCHEME
 if (has("termguicolors"))
      set termguicolors
