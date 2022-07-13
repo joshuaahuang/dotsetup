@@ -20,7 +20,7 @@ Plug 'rust-lang/rust.vim'
 " Collection of common configurations for the Nvim LSP client
 Plug 'neovim/nvim-lspconfig'
 
-" Completion framework
+"Completion framework
 Plug 'hrsh7th/nvim-cmp'
 
 " LSP completion source for nvim-cmp
@@ -44,6 +44,12 @@ Plug 'hrsh7th/vim-vsnip'
 " Autocompletion framework for built-in LSP, for example, providing type inlay
 " hints
 Plug 'nvim-lua/lsp_extensions.nvim'
+
+" Javascript
+Plug 'pangloss/vim-javascript'
+
+" Autocompletion framework
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "Autocompletion framwork for built-in LSP
 " Plug 'nvim-lua/completion-nvim'
